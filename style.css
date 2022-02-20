@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+#pic {
+  background-position: center;
+  background-size: cover;
+}
+#quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+  border-radius: 16px;
+  transition: -5s;
+  color: whitesmoke;
+  cursor: pointer;
+}
