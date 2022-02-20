@@ -8,10 +8,6 @@ body {
   overflow: hidden;
   height: 100vh;
 }
-#pic {
-  background-position: center;
-  background-size: cover;
-}
 #quote {
   position: absolute;
   top: 50%;
